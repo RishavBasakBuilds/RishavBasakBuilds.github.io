@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Technical Precision Meets Market Strategy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact" class="btn-outline">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container">
+            <p class="subtitle">QA Engineer turned Management Strategist</p>
+            <h1>Engineering Quality.<br><span class="highlight">Driving Growth.</span></h1>
+            <p class="description">Bridging the gap between technical precision and dynamic market strategy. Currently pursuing a PGDM in Marketing & Operations, with a foundation built on 4 years of optimizing systems at Accenture.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Let's Connect</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section reveal">
+        <div class="container">
+            <h2>The Journey</h2>
+            <div class="about-content">
+                <p>My career began in the highly structured, detail-oriented world of technology. Spending four years mastering manual testing and Quality Assurance in Salesforce at Accenture taught me how to dissect complex problems, optimize systems, and ensure flawless execution.</p>
+                <p>Today, I am applying that same analytical rigor to the dynamic world of business strategy, economics, and market growth. As a PGDM candidate specializing in Marketing with a minor in Operations, I leverage data and structured thinking to drive high-impact business development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section bg-alt reveal">
+        <div class="container">
+            <h2>High-Impact Achievements</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Real Estate Sales Intern</h3>
+                        <span>Cascade Homes Pvt. Ltd. | Pune</span>
+                    </div>
+                    <p>Completed an intensive 45-day winter internship focusing on high-ticket real estate sales and client relationship management.</p>
+                    <ul class="card-list">
+                        <li>Successfully drove the closure of a ₹1.3 Cr 2BHK duplex booking at Pride World City.</li>
+                        <li>Conducted market analysis and facilitated property site visits for prospective buyers.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Quality Assurance Engineer</h3>
+                        <span>Accenture</span>
+                    </div>
+                    <p>Spent 4 years specializing in manual testing within the Salesforce ecosystem, ensuring system integrity before major rollouts.</p>
+                    <ul class="card-list">
+                        <li>Optimized testing protocols and identified critical bugs to improve user experience.</li>
+                        <li>Collaborated with cross-functional teams to translate business requirements into technical deliverables.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+        <div class="container">
+            <h2>Strategic & Analytical Projects</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Market Entry Strategy: GSK Sensodyne</h3>
+                    <p>Developed a comprehensive new product entry strategy for GSK India targeting the emerging market of Namchi, Sikkim.</p>
+                    <div class="tags">
+                        <span>Market Research</span>
+                        <span>Strategy</span>
+                        <span>Consumer Behavior</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Business Analytics Modeling</h3>
+                    <p>Applied prescriptive analytics, classification, and regression models to extract actionable business insights from raw datasets.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Advanced Excel</span>
+                        <span>Data Visualization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-alt reveal">
+        <div class="container">
+            <h2>Core Competencies</h2>
+            <div class="skills-container">
+                <div class="skill-tag">Business Development</div>
+                <div class="skill-tag">Marketing Strategy</div>
+                <div class="skill-tag">Operations Management</div>
+                <div class="skill-tag">Salesforce QA</div>
+                <div class="skill-tag">Python & Excel Analytics</div>
+                <div class="skill-tag">Economic Analysis</div>
+                <div class="skill-tag">B2B/B2C Sales</div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container text-center">
+            <h2>Let's Build Something Great</h2>
+            <p>Currently open for Summer Internship placements in Marketing, Business Development, or Operations.</p>
+            <a href="mailto:your.email@example.com" class="btn-primary">Get In Touch</a>
+            <div class="social-links">
+                <a href="#">LinkedIn</a> | <a href="#">Download CV</a>
+            </div>
+            <p class="copyright">© 2026 Crafted with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
